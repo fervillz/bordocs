@@ -13,7 +13,7 @@ Starter theme used for most of the project combine underscores + bootstrap 3.3.6
 
 == Description ==
 
-This is a started theme created from underscores and bootstrap 3.3.6. Integrated with SASS and Grunt setups
+This is a started theme created from underscores and bootstrap 3.3.6. Integrated with SASS and Grunt setups. Uses libsass, Node-sass and Grunt-sass for Lightning fast Sass compiling
 
 == Installation ==
 	
