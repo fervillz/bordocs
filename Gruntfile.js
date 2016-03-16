@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 		watch: {
 			sass: {
-				files: ['sass/**/*.{scss,sass}','sass/_partials/**/*.{scss,sass}'],
+				files: ['assets/stylesheets/**/*.{scss,sass}','sass/_partials/**/*.{scss,sass}'],
 				tasks: ['sass:dist']
 			},
 			livereload: {
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				files: {
-					'css/styles.css': 'sass/styles.scss'
+					'style.css': 'assets/stylesheets/bootstrap.scss'
 				}
 			}
 		}
